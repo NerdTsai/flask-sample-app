@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    hostname = socket.gethostname()
-    IPAddr = socket.gethostbyname(hostname)
-    return "Hello from "+IPAddr+"!"
+    #hostname = socket.gethostname()
+    #IPAddr = socket.gethostbyname(hostname)
+    return "Hello! This is a test from IBM."
 
 
 if __name__ == "__main__":
